@@ -1,0 +1,145 @@
+/*reset do CSS*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0;
+}
+
+header {
+
+    height: 80px;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    align-items: center;
+
+}
+
+header h1 {
+    color: rgb(149, 31, 182);
+    font-size: 1.5em;
+    background: -webkit-linear-gradient(45deg, #813232, #9613bd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.cabecalho {
+    width: 50px;
+    height: 50px;
+}
+
+.rickmorty {
+    background-image: url(../imagens/rickmori.jpg);
+    min-height: 600px;
+
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.cont {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+    outline: 0;
+    border: 1px solid transparent;
+    padding: 3px;
+    background-color: #ccc;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+form input:focus {
+    border-color: #9613bd;
+}
+
+.btn {
+    width: 90px;
+    height: 40px;
+    background-color: #9613bd;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.btn2 .btn {
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+}
+
+.btn:hover {
+    background-color: #060404;
+    color: white;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin-bottom: 10px;
+}
+
+.dividir {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    width: 500px;
+    height: 220px;
+    padding: 10px;
+    border: #f5f4f4 solid 1px;
+}
+
+.perso {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.caracteristicas {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.caracteristicas span {
+    padding: 6px;
+    font-size: 20px;
+    background: -webkit-linear-gradient(45deg, #da9de7, #9801f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    background-color: rgb(11, 10, 10);
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+footer span {
+    color: rgb(149, 31, 182);
+    font-size: 20px;
+    background: -webkit-linear-gradient(45deg, #9613bd, #813232);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+body {
+    background-color: #000000;
+}
